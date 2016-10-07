@@ -5,7 +5,7 @@ var LocalStrategy = require('passport-local').Strategy;
 var FacebookStrategy = require('passport-facebook').Strategy;
 var InstagramStrategy = require('passport-instagram').Strategy;
 
-var url = "http://localhost:3000";
+var url = "http://ec2-52-38-20-112.us-west-2.compute.amazonaws.com";
 
 var User = require('../models/user');
 
