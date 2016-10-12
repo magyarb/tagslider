@@ -5,7 +5,8 @@ var LocalStrategy = require('passport-local').Strategy;
 var FacebookStrategy = require('passport-facebook').Strategy;
 var InstagramStrategy = require('passport-instagram').Strategy;
 
-var url = "http://tagslide.online";
+var consts = require('../env/consts');
+var url = consts.url;
 
 var User = require('../models/user');
 

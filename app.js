@@ -11,7 +11,8 @@ var LocalStrategy = require('passport-local').Strategy;
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
 
-var url = "http://tagslide.online";
+var consts = require('./env/consts');
+var url = consts.url;
 
 mongoose.connect('mongodb://localhost/loginapp');
 var db = mongoose.connection;
